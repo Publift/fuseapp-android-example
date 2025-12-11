@@ -16,6 +16,7 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven("https://dl.cloudsmith.io/BrnMk9bbufLlX4Vd/publift/fuseapp/maven/")
     }
 }
 
