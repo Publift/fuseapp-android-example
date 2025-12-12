@@ -51,6 +51,16 @@ class MainActivity : ComponentActivity() {
                         ) {
                             Text(text = "XML Example")
                         }
+
+                        Button(
+                            onClick = {
+                                val intent = Intent(context, LayoutActivity::class.java)
+                                context.startActivity(intent)
+                            },
+                            modifier = Modifier.padding(12.dp)
+                        ) {
+                            Text(text = "Layout Example")
+                        }
                     }
                 }
             }

@@ -63,8 +63,9 @@ class ComposeActivity : ComponentActivity() {
                                 ))
                                 .setContentUrl("https://www.publift.com/about")
                                 .build(),
-                            onEvent = { adView, adViewEvent ->
-                                println("Fuse Event: $adViewEvent")
+                            onEvent = { adView, event ->
+                                // You can listen to banner ad events.
+                                println("Fuse Event: $event")
                             }
                         )
 

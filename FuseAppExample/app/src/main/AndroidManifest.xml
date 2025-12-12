@@ -28,6 +28,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".ComposeActivity" />
+        <activity android:name=".LayoutActivity" />
         <activity android:name=".XmlActivity" />
     </application>
 
