@@ -41,6 +41,16 @@ class MainActivity : ComponentActivity() {
                         ) {
                             Text(text = "Compose Example")
                         }
+
+                        Button(
+                            onClick = {
+                                val intent = Intent(context, XmlActivity::class.java)
+                                context.startActivity(intent)
+                            },
+                            modifier = Modifier.padding(12.dp)
+                        ) {
+                            Text(text = "XML Example")
+                        }
                     }
                 }
             }

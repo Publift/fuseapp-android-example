@@ -27,9 +27,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".ComposeActivity">
-        </activity>
+        <activity android:name=".ComposeActivity" />
+        <activity android:name=".XmlActivity" />
     </application>
 
 </manifest>
