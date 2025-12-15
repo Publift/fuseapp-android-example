@@ -17,7 +17,7 @@ This repository contains example code for the Fuse App SDK on Android.
 ## Resources
 
 * [Fuse App SDK](https://docs.publift.com/fuse-app/)
-* [Android Installation](https://docs.publift.com/fuse-app/android-installation/)
+* [Android installation](https://docs.publift.com/fuse-app/android-installation/)
 
 ## License
 
