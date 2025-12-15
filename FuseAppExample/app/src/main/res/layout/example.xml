@@ -15,6 +15,6 @@
     <com.publift.fuseappsdk.ads.FuseAdView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:ad_zone_code="banner" />
+        app:ad_zone_code="banner_zone_code" />
 
 </LinearLayout>

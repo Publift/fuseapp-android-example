@@ -44,7 +44,7 @@ class ComposeActivity : ComponentActivity() {
 
                         Text("Banner Ad", Modifier.padding(12.dp))
 
-                        ComposeFuseAdView("banner")
+                        ComposeFuseAdView("banner_zone_code")
 
                         HorizontalDivider()
 
@@ -55,7 +55,7 @@ class ComposeActivity : ComponentActivity() {
                         Text("Banner Ad with Custom Parameters", Modifier.padding(12.dp))
 
                         ComposeFuseAdView(
-                            code = "banner",
+                            code = "banner_zone_code",
                             params = FuseAdViewParams.Builder()
                                 .setCustomTargeting(mapOf(
                                     "sport" to listOf("basketball"),
@@ -92,7 +92,7 @@ class ComposeActivity : ComponentActivity() {
                         Text("Native Ad", Modifier.padding(12.dp))
 
                         ComposeFuseAdView(
-                            code = "example_native",
+                            code = "native_zone_code",
                             loadingBehaviour = FuseAdViewBehaviour.ProgressBar,
                             errorBehaviour = FuseAdViewBehaviour.DoNothing,
                         )

@@ -27,7 +27,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             val context = LocalContext.current
-            val interstitialAd = FuseFullScreenAdView(context, "interstitial")
+            val interstitialAd = FuseFullScreenAdView(context, "interstitial_zone_code")
             MaterialTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { paddingValues ->
                     Column(

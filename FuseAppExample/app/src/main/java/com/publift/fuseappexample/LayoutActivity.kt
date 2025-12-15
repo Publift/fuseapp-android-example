@@ -35,7 +35,7 @@ class LayoutActivity : ComponentActivity(), FuseAdViewListener {
         textView1.text = "Banner Ad"
         linearLayout.addView(textView1)
 
-        val adView1 = FuseAdView(this, code = "banner")
+        val adView1 = FuseAdView(this, code = "banner_zone_code")
         linearLayout.addView(adView1)
 
         /*
@@ -48,7 +48,7 @@ class LayoutActivity : ComponentActivity(), FuseAdViewListener {
 
         val adView2 = FuseAdView(
             context = this,
-            code = "banner",
+            code = "banner_zone_code",
             params = FuseAdViewParams.Builder()
                 .setCustomTargeting(mapOf(
                     "sport" to listOf("basketball"),
@@ -74,7 +74,7 @@ class LayoutActivity : ComponentActivity(), FuseAdViewListener {
 
         val adView3 = FuseAdView(
             context = this,
-            code = "banner",
+            code = "banner_zone_code",
             loadingBehaviour = FuseAdViewBehaviour.Background(placeholder),
             errorBehaviour = FuseAdViewBehaviour.Background(placeholder),
         )
@@ -89,7 +89,7 @@ class LayoutActivity : ComponentActivity(), FuseAdViewListener {
 
         val adView4 = FuseAdView(
             context = this,
-            code = "example_native",
+            code = "native_zone_code",
             loadingBehaviour = FuseAdViewBehaviour.ProgressBar,
             errorBehaviour = FuseAdViewBehaviour.DoNothing,
         )

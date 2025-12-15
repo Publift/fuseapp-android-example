@@ -7,7 +7,7 @@ import androidx.activity.ComponentActivity
 class XmlActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_xml)
+        setContentView(R.layout.example)
         actionBar?.setDisplayHomeAsUpEnabled(true)
     }
 
