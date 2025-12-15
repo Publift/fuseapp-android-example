@@ -18,6 +18,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 import com.publift.fuseappsdk.FuseSDK
+import com.publift.fuseappsdk.ads.FuseFullScreenAdView
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -26,6 +27,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             val context = LocalContext.current
+            val interstitialAd = FuseFullScreenAdView(context, "interstitial")
             MaterialTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { paddingValues ->
                     Column(
@@ -60,6 +62,18 @@ class MainActivity : ComponentActivity() {
                             modifier = Modifier.padding(12.dp)
                         ) {
                             Text(text = "Layout Example")
+                        }
+
+                        Button(
+                            onClick = {
+                                /*
+                                 * Example: Display a full-screen interstitial ad
+                                 */
+                                interstitialAd.show(this@MainActivity, 10_000)
+                            },
+                            modifier = Modifier.padding(12.dp)
+                        ) {
+                            Text(text = "Interstitial Example")
                         }
                     }
                 }
