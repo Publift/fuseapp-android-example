@@ -4,17 +4,20 @@ Fuse is the [Publift](https://www.publift.com/) advertising solution for publish
 
 This repository contains example code for the Fuse App SDK on Android.
 
-## Installation
+## Getting started
 
-The example app uses [Gradle](https://docs.gradle.org/current/userguide/getting_started.html) to install Fuse App SDK and other dependencies.
+1. Clone this repo
+2. Open the folder `FuseAppExample` in Android Studio
+3. See the following files for implementation examples:
+   - [MainActivity.kt](FuseAppExample/app/src/main/java/com/example/fuseappexample/MainActivity.kt)
+   - [ComposeActivity.kt](FuseAppExample/app/src/main/java/com/example/fuseappexample/ComposeActivity.kt)
+   - [LayoutActivity.kt](FuseAppExample/app/src/main/java/com/example/fuseappexample/LayoutActivity.kt)
+   - [activity_xml.xml](FuseAppExample/app/src/main/res/layout/activity_xml.xml)
 
-Open the folder `FuseAppExample` in Android Studio and run the app.
+## Resources
 
-Installation instructions can be found in our [online documentation](https://docs.publift.com/fuse-app/android-installation/).
-
-## Documentation
-
-Check out our [developers site](https://docs.publift.com/fuse-app/) for documentation on using the Fuse App SDK.
+* [Fuse App SDK](https://docs.publift.com/fuse-app/)
+* [Android Installation](https://docs.publift.com/fuse-app/android-installation/)
 
 ## License
 
