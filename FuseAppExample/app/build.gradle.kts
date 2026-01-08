@@ -43,6 +43,7 @@ android {
 
 dependencies {
     implementation("com.publift.fuseappsdk:fuseappsdk:latest.release")
+    implementation("androidx.appcompat:appcompat:1.6.1")
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
