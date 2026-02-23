@@ -7,8 +7,9 @@ This repository contains example code for the Fuse App SDK on Android.
 ## Getting started
 
 1. Clone this repo
-2. Open the folder `FuseAppExample` in Android Studio
-3. See the following files for implementation examples:
+2. Run `./gradlew build --refresh-dependencies`
+3. Open the folder `FuseAppExample` in Android Studio
+4. See the following files for implementation examples:
    - [Jetpack Compose](https://github.com/Publift/fuseapp-android-example/blob/main/FuseAppExample/app/src/main/java/com/publift/fuseappexample/ComposeActivity.kt)
    - [Manual Layout](https://github.com/Publift/fuseapp-android-example/blob/main/FuseAppExample/app/src/main/java/com/publift/fuseappexample/LayoutActivity.kt)
    - [XML Layout](https://github.com/Publift/fuseapp-android-example/blob/main/FuseAppExample/app/src/main/res/layout/example.xml)
