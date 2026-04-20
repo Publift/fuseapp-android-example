@@ -118,4 +118,8 @@ class LayoutActivity : ComponentActivity(), FuseAdViewListener {
         // Listen to banner ad events (loading, loaded, etc.)
         println("Fuse Event: $event")
     }
+
+    override fun onSizeChanged(adView: FuseAdView, width: Int, height: Int) {
+        println("Size changed: ${width}x$height")
+    }
 }

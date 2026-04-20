@@ -66,6 +66,9 @@ class ComposeActivity : ComponentActivity() {
                             onEvent = { adView, event ->
                                 // You can listen to banner ad events.
                                 println("Fuse Event: $event")
+                            },
+                            onSizeChanged = { adView, width, height ->
+                                println("Size changed: ${width}x$height")
                             }
                         )
 
