@@ -7,7 +7,7 @@ plugins {
 
 android {
     namespace = "com.publift.fuseappexample"
-    compileSdk = 36
+    compileSdk = 37
 
     defaultConfig {
         applicationId = "com.publift.fuseappexample"
